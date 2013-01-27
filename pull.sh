@@ -1,2 +1,2 @@
 #!/bin/bash
-scp -r themullers:public_html/mike/wp-content/plugins/reading-widget/* .
+scp -r themullers:public_html/mike/wp-content/plugins/goodreads-widget/* .

@@ -1,25 +1,25 @@
-.reading-widget {
+.goodreads-widget {
     width: 250px;
 }
 
-.reading-logo {
+.goodreads-logo {
     width: 250px;
     height: 45px;
-    background-image: url("images/readinglogo.png");
+    background-image: url("images/goodreadsbanner.png");
 }
 
-.reading-content {
+.goodreads-content {
     width: 248px;
     border-left: 1px solid black;
     border-right: 1px solid black;
     color: #666666;
 }
 
-.reading-content a {
+.goodreads-content a {
     color: #990000;
 }
 
-.reading-footer {
+.goodreads-footer {
     width: 250px;
     height: 18px;
     background-color: #666;
@@ -27,19 +27,19 @@
     border-bottom-right-radius: 10px;
 }
 
-.reading-book {
+.goodreads-book {
     padding: 3px 10px; 
     height:75px;
 }
 
-.reading-book-image {
+.goodreads-book-image {
     float: left; 
     width: 50px; 
     height: 75px; 
     margin-right: 5px;
 }
 
-.reading-title {
+.goodreads-title {
     padding-top: 10px;
     font-weight: bold;
 }
