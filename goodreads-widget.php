@@ -29,22 +29,7 @@ class Goodreads_Widget extends WP_Widget {
     }
     
     public function widget( $args, $instance ) {
-    
-        $books = array(
-            array(
-              'title' => 'The Dog Stars',
-              'author' => 'Peter Heller',
-              'link' => 'http://www.amazon.com/The-Dog-Stars-Peter-Heller/dp/0307959945/ref=sr_1_1?ie=UTF8&qid=1358705752&sr=8-1&keywords=the+dog+stars',
-              'img' => 'http://d.gr-assets.com/books/1333577302l/13330761.jpg',
-            ),
-            array(
-              'title' => 'Version Control with Git',
-              'author' => 'Jon Loeliger and Matthew McCullough',
-              'link' => 'http://www.amazon.com/Version-Control-Git-collaborative-development/dp/1449316387/ref=sr_1_1?ie=UTF8&qid=1358705868&sr=8-1&keywords=version+control+with+git',
-              'img' => 'http://akamaicovers.oreilly.com/images/9780596520137/cat.gif',
-            ),
-        );            
-    
+
         // this defines the before_widget and after_widget variables
         extract($args);
         
